@@ -1,0 +1,25 @@
+import com.qualizeal.javaapp02.operation.TwoNonDecimalNumbersDivision;
+
+public class App {
+	public static void main(String[] args) {
+	
+		TwoNonDecimalNumbersDivision twoNonDecimalNumbersDivision = new TwoNonDecimalNumbersDivision();
+		var result1 = twoNonDecimalNumbersDivision.divide(10,2) ;
+		var result2 = twoNonDecimalNumbersDivision.divide(2,10);
+		var result3 = twoNonDecimalNumbersDivision.divide(10,-2);
+		var result4 = twoNonDecimalNumbersDivision.divide(-10,2);
+		var result5 = twoNonDecimalNumbersDivision.divide(-10,-2);
+		var result6 = twoNonDecimalNumbersDivision.divide(10,0);
+		var result7 = twoNonDecimalNumbersDivision.divide(0,2);
+		var result8 = twoNonDecimalNumbersDivision.divide(0,0);
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+		System.out.println(result4);
+		System.out.println(result5);
+		System.out.println(result6);
+		System.out.println(result7);
+		System.out.println(result8);
+		
+		
