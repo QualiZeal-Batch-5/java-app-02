@@ -1,4 +1,4 @@
-package com.qualizeal.javaapp01.operation.divide;
+package com.qualizeal.javaapp02.operation.divide;
 
 public class TwoNonDecimalNumbersDivision {
 	public long divide(int num1, int num2) {
